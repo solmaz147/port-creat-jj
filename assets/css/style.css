@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+.card .card-title {
+    color: #3C46FF;
+}
+.services h6 {
+    color: #FF5E69;
+    }
+
+ .services h1 {font-weight: 600;}   
+.introduction {
+    display: flex; flex-direction: column;}
+
+.intro-left-side h1 {
+    font-size: 37px;}
+.intro-right-side {
+    width:300px}
+.intro-right-side img {
+    width:100%;
+margin:0 auto}
+header nav.nav-links {
+    display: none !important;
+}
+
+.introduction h1 span {color: #FF8A56;}
+
+ul li {font-weight: 500;}
+ 
+.projects-section h6 {
+    color:#B16CEA;
+    ;
+}
+
+
+
+.vap {
+    display: inline block;
+    background-color: #000;
+    text-decoration: none;
+    height:40px;
+    width: 150px;
+}
+
+.intro-left-side a .btn {
+    margin-right: 30px !important;
+}
+
+.overlay{
+    background-color: rgba(0,0,0,.6);
+    position: absolute;
+    width: 0;
+    overflow-x: hidden;
+    transition: 1.2s ease;
+}
+
+.mobile-nav-links {
+     color: #bbb;
+     height: 100vh;
+     font-size: 30px;
+     transition: all 1.2s ease;
+}
+.overlay .fa-xmark {
+    color: #bbb;
+    position: absolute;
+    right: 300px;
+    font-size: 30px;
+}
+
+.mobile-nav-links a:hover {
+    color: #fff;
+    transform: translateX(20px);
+
+}
+
+
+
+.fa-xmark:hover {color: #fff;}
+
+
+
+
+@media (min-width:375px){ .intro-left-side h1 {font-size: 45px;} }
+    
+
+
+@media(min-width:768px) { .introduction{display: flex; flex-direction: row;}
+    .fa-bars {
+        display: none !important;
+    }
+     header nav.nav-links {
+        display:flex !important;
+    }
+    .intro-right-side{width: 500px;}
+    .intro-left-side {padding-top: 40px;}
+}
+
+
+@media(min-width:968px) { .introduction{display: flex;}
+    .introduction .intro-left-side h1 {font-size:75px !important;
+     }
+     .intro-left-side p {font-size: 20px;}
+     .intro-right-side {width: 600px;}
+     
+
+}
